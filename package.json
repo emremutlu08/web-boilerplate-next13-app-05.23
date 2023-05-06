@@ -1,0 +1,53 @@
+{
+  "name": "web-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@prisma/client": "^4.13.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "autoprefixer": "10.4.14",
+    "bcryptjs": "^2.4.3",
+    "cookies-next": "^2.1.1",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.2",
+    "formik": "^2.2.9",
+    "jsonwebtoken": "^9.0.0",
+    "next": "^13.4.0",
+    "next-auth": "^0.0.0-pr.6777.c5550344",
+    "next-intl": "^2.14.0-beta.3",
+    "next-swagger-doc": "^0.3.6",
+    "node-fetch": "2",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "swagger-ui-react": "^4.18.3",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/swagger-ui-react": "^4.18.0",
+    "encoding": "^0.1.13",
+    "prisma": "^4.13.0",
+    "ts-node": "^10.9.1"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  }
+}
